@@ -1,0 +1,14 @@
+To run the program, use command:
+
+python sequence.py <name of network>
+
+Replace <name of network> with a name you want to use to signify the 
+new network you are creating.
+
+If you wish to use a previous network to detect faults use command:
+
+python detectFaults.py <name of network>
+
+again, replacing <name of network> with the name of the network you want to
+test.
+
