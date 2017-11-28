@@ -48,6 +48,7 @@ livesample = collectdata()
 drawfreq = livesample
 
 plt.ion()
+plt.title('Fault Signature')
 graph = plt.plot(G,drawfreq)[0]
 while True:
     livesample = collectdata()

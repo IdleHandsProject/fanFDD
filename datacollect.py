@@ -79,5 +79,6 @@ np.save(inputname, datasetinput)
 np.save(outputname, datasetoutput)
 
 print ("The Training Data has now been collected")
-print ("Press Enter to Quit")
-
+print ("Press Enter to Continue")
+text = raw_input()
+time.sleep(2)
